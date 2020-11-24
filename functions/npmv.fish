@@ -1,3 +1,3 @@
 function npmv -w 'npm -v' -d 'Check package versions'
-  npm -v
+  npm -v $argv
 end
