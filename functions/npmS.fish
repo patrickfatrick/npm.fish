@@ -1,3 +1,3 @@
-function npmS -w 'npm i -S' -d 'Install and save to dependencies in your package.json'
-  npm i -S $argv
+function npmS -w 'npm install' -d 'install a package'
+  npm install -S $argv
 end

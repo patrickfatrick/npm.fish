@@ -1,3 +1,3 @@
-function npmD -w 'npm i -D' -d 'Install and save to dev-dependencies in your package.json'
-  npm i -D $argv
+function npmD -w 'npm install' -d 'install a package'
+  npm install -D $argv
 end

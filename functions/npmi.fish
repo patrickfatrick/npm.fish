@@ -1,3 +1,3 @@
-function npmi -w 'npm init' -d 'Run npm init'
+function npmi -w 'npm init'
   npm init $argv
 end

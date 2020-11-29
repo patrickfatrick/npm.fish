@@ -1,3 +1,3 @@
-function npmt -w 'npm test' -d 'Run npm test'
+function npmt -w 'npm test' -d 'Test a package'
   npm test $argv
 end

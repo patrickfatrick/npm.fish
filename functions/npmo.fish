@@ -1,3 +1,3 @@
-function npmo -w 'npm outdated' -d 'Check which npm modules are outdated'
+function npmo -w 'npm outdated' -d 'Check for outdated packages'
   npm outdated $argv
 end
