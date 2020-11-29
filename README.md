@@ -22,21 +22,22 @@ $ fisher install patrickfatrick/npm.fish
 
 ## Aliases
 
-| Alias   | Command                      | Descripton                                                      |
-|:------  |:-----------------------------|:----------------------------------------------------------------|
-| `npmg`  | `npm i -g`                   | Install dependencies globally                                   |
-| `npmS`  | `npm i -S`                   | Install and save to dependencies in your package.json           |
-| `npmD`  | `npm i -D`                   | Install and save to dev-dependencies in your package.json       |
-| `npme`  | `PATH="$(npm bin)":"$PATH"`  | Run command from node_modules folder based on current directory |
-| `npmo`  | `npm outdated`               | Check which npm modules are outdated                            |
-| `npmv`  | `npm -v`                     | Check package versions                                          |
-| `npml`  | `npm list`                   | List installed packages                                         |
-| `npml0` | `npm ls --depth=0`           | List top-level installed packages                               |
-| `npmst` | `npm start`                  | Run npm start                                                   |
-| `npmt`  | `npm test`                   | Run npm test                                                    |
-| `npmr`  | `npm run`                    | Run npm scripts                                                 |
-| `npmp`  | `npm publish`                | Run npm publish                                                 |
-| `npmi`  | `npm init`                   | Run npm init                                                    |
+| Alias   | Command                      |
+|:------  |:-----------------------------|
+| `npmg`  | `npm i -g`                   |
+| `npmS`  | `npm i -S`                   |
+| `npmD`  | `npm i -D`                   |
+| `npme`  | `PATH="$(npm bin)":"$PATH"`  |
+| `npmo`  | `npm outdated`               |
+| `npmv`  | `npm version`                |
+| `npml`  | `npm list`                   |
+| `npml0` | `npm ls --depth=0`           |
+| `npmst` | `npm start`                  |
+| `npmt`  | `npm test`                   |
+| `npmr`  | `npm run`                    |
+| `npmp`  | `npm publish`                |
+| `npmi`  | `npm init`                   |
+| `npmu`  | `npm uninstall`              |
 
 # License
 
