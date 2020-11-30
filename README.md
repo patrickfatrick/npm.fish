@@ -22,22 +22,22 @@ $ fisher install patrickfatrick/npm.fish
 
 ## Aliases
 
-| Alias   | Command                      |
-|:------  |:-----------------------------|
-| `npmg`  | `npm i -g`                   |
-| `npmS`  | `npm i -S`                   |
-| `npmD`  | `npm i -D`                   |
-| `npme`  | `PATH="$(npm bin)":"$PATH"`  |
-| `npmo`  | `npm outdated`               |
-| `npmv`  | `npm version`                |
-| `npml`  | `npm list`                   |
-| `npml0` | `npm ls --depth=0`           |
-| `npmst` | `npm start`                  |
-| `npmt`  | `npm test`                   |
-| `npmr`  | `npm run`                    |
-| `npmp`  | `npm publish`                |
-| `npmi`  | `npm init`                   |
-| `npmu`  | `npm uninstall`              |
+| Alias | Command                    |
+|:------|:---------------------------|
+| npmg  | npm i -g                   |
+| npmS  | npm i -S                   |
+| npmD  | npm i -D                   |
+| npme  | PATH="$(npm bin)":"$PATH"  |
+| npmo  | npm outdated               |
+| npmv  | npm version                |
+| npml  | npm list                   |
+| npml0 | npm ls --depth=0           |
+| npmst | npm start                  |
+| npmt  | npm test                   |
+| npmr  | npm run                    |
+| npmp  | npm publish                |
+| npmi  | npm init                   |
+| npmu  | npm uninstall              |
 
 # License
 
