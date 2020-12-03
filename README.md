@@ -2,7 +2,7 @@
 
 ## npm.fish
 
-> An NPM aliases plugin for Fish shell based on [Oh My Zsh NPM Plugin][omz-npm-plugin]
+> A collection of NPM functions for Fish shell based on [Oh My Zsh NPM Plugin][omz-npm-plugin]
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v3.1.0-007EC7.svg?style=flat-square)](https://fishshell.com)
