@@ -40,20 +40,21 @@ function __npm_make_function -a name body
 end
 
 # List from oh-my-zsh
-__npm_make_function npmg 'npm install -g'
-__npm_make_function npmS 'npm install -S'
-__npm_make_function npmD 'npm install -D'
-__npm_make_function npme 'PATH="(npm bin)":"$PATH"'
-__npm_make_function npmo 'npm outdated'
-__npm_make_function npmv 'npm version'
-__npm_make_function npml 'npm list'
-__npm_make_function npml0 'npm list --depth=0'
-__npm_make_function npmst 'npm start'
-__npm_make_function npmt 'npm test'
-__npm_make_function npmr 'npm run'
-__npm_make_function npmp 'npm publish'
-__npm_make_function npmi 'npm init'
-__npm_make_function npmu 'npm uninstall'
+__npm_make_function nig 'npm install -g'
+__npm_make_function ni 'npm install'
+__npm_make_function nis 'npm install -S'
+__npm_make_function nid 'npm install -D'
+__npm_make_function ne 'PATH="(npm bin)":"$PATH"'
+__npm_make_function no 'npm outdated'
+__npm_make_function nv 'npm version'
+__npm_make_function nl 'npm list'
+__npm_make_function nl0 'npm list --depth=0'
+__npm_make_function nst 'npm start'
+__npm_make_function nt 'npm test'
+__npm_make_function nr 'npm run'
+__npm_make_function np 'npm publish'
+__npm_make_function ninit 'npm init'
+__npm_make_function nun 'npm uninstall'
 
 functions -e __npm_make_function
 functions -e __npm_function_string
