@@ -40,6 +40,7 @@ function __npm_make_function -a name body
 end
 
 # List from oh-my-zsh
+__npm_make_function nci 'npm ci'
 __npm_make_function nig 'npm install -g'
 __npm_make_function ni 'npm install'
 __npm_make_function nis 'npm install -S'
