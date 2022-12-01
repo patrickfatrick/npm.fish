@@ -24,20 +24,21 @@ $ fisher install patrickfatrick/npm.fish
 
 | Alias | Command                    |
 |:------|:---------------------------|
-| npmg  | npm i -g                   |
-| npmS  | npm i -S                   |
-| npmD  | npm i -D                   |
-| npme  | PATH="$(npm bin)":"$PATH"  |
-| npmo  | npm outdated               |
-| npmv  | npm version                |
-| npml  | npm list                   |
-| npml0 | npm ls --depth=0           |
-| npmst | npm start                  |
-| npmt  | npm test                   |
-| npmr  | npm run                    |
-| npmp  | npm publish                |
-| npmi  | npm init                   |
-| npmu  | npm uninstall              |
+| ni    | npm i                      |
+| nig   | npm i -g                   |
+| nis   | npm i -S                   |
+| nid   | npm i -D                   |
+| ne    | PATH="$(npm bin)":"$PATH"  |
+| no    | npm outdated               |
+| nv    | npm version                |
+| nl    | npm list                   |
+| nl0   | npm ls --depth=0           |
+| nst   | npm start                  |
+| nt    | npm test                   |
+| nr    | npm run                    |
+| np    | npm publish                |
+| ninit | npm init                   |
+| nun   | npm uninstall              |
 
 # License
 
